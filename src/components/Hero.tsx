@@ -1,6 +1,10 @@
 import React from 'react';
+import '@fontsource/lobster';
 
 import { heroDetails } from '@/data/hero';
+import { footerDetails } from '@/data/footer';
+const href = 'https://wa.me/' + footerDetails.telephone;
+
 
 const Hero: React.FC = () => {
     return (
@@ -22,9 +26,10 @@ const Hero: React.FC = () => {
                 <h1
                     id="hero-heading"
                     className="text-5xl md:text-7xl font-extrabold text-white leading-tight drop-shadow-md"
+                    style={{ fontFamily: 'Lobster, cursive' }}
                 >
                     <span
-                        className="bg-gradient-to-r from-blue-600 to-white bg-clip-text text-transparent"
+                        className="bg-gradient-to-r from-rose-600 to-rose-300 bg-clip-text text-transparent"
                         translate='no'
                     >
                         {heroDetails.heading}
@@ -37,8 +42,8 @@ const Hero: React.FC = () => {
                     {heroDetails.subheading}
                 </p>
                 <button className="mt-8 px-6 py-3 text-lg font-semibold text-white bg-red-600 hover:bg-red-700 rounded-full transition">
-                    <a href="https://wa.me/5571999857902" target="_blank" rel="noopener noreferrer">
-                        I want!
+                    <a href={href} target="_blank" rel="noopener noreferrer">
+                        {heroDetails.textButton}
                     </a>
                 </button>
             </div>

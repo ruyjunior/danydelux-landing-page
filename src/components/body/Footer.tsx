@@ -57,6 +57,8 @@ const Footer: React.FC = () => {
                                             href={footerDetails.socials[platformName]}
                                             key={platformName}
                                             aria-label={platformName}
+                                            target="_blank"
+
                                         >
                                             {getPlatformIconByName(platformName)}
                                         </Link>

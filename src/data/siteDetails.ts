@@ -1,9 +1,9 @@
 export const siteDetails = {
-    siteName: 'Title Company',
-    siteUrl: 'https://suaempresa.com',
+    siteName: 'Dany Delux',
+    siteUrl: 'https://danydeluxe.com.br',
     metadata: {
-        title: 'Title Company',
-        description: 'Description of company',
+        title: 'Dany Delux',
+        description: "Women's clothing and fashion store",
     },
     language: 'pt-br',
     locale: 'pt-BR',
