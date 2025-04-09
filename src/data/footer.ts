@@ -11,7 +11,7 @@ export const footerDetails: {
 } = {
     subheading: "Your women's fashion store",
     quickLinks: menuItems,
-    email: 'empresa@dominio.com',
+    email: 'danydeluxdany@gmail.com',
     telephone: '+5571988372937',
     address: 'Faz grande 4, setor 7, caminho 48, casa 2, Fim de linha de boca da mata, Cep 41345185',
     socials: {
